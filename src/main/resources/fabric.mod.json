@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "memory_cleaner",
+  "version": "${version}",
+  "name": "MemoryCleaner",
+  "description": "Uses java GC",
+  "authors": [
+    "restonic4"
+  ],
+  "contact": {
+    "repo": "https://github.com/Marcos/MemoryCleaner"
+  },
+  "license": "MIT",
+  "icon": "assets/memory_cleaner/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+      "com.restonic4.memory_cleaner.MemoryCleaner"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
