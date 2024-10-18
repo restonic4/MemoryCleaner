@@ -11,7 +11,7 @@
     "repo": "https://github.com/Marcos/MemoryCleaner"
   },
   "license": "MIT",
-  "icon": "assets/memory_cleaner/icon.png",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
