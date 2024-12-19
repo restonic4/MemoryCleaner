@@ -35,7 +35,7 @@ public class MemoryCleaner implements ModInitializer {
         ));
 
         ServerTickEvents.END_SERVER_TICK.register((minecraftServer) -> {
-            if (System.currentTimeMillis() >= lastTimeAutomaticCleanUp + 60000) {
+            if (System.currentTimeMillis() >= lastTimeAutomaticCleanUp + 120000) {
                 lastTimeAutomaticCleanUp = System.currentTimeMillis();
 
                 if (!isMemorySafe()) {
