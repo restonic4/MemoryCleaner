@@ -12,7 +12,7 @@ import java.util.Locale;
 import static net.minecraft.commands.Commands.literal;
 
 public class MemoryCleaner implements ModInitializer {
-    private static final double MEMORY_PERCENTAGE_THRESHOLD = 85;
+    private static final double MEMORY_PERCENTAGE_THRESHOLD = 90;
     private static long lastTimeAutomaticCleanUp;
 
     @Override
